@@ -42,3 +42,11 @@ class Solution {
         check(list, root.right);
     }
 }
+
+// Constraints:
+// The number of nodes in each tree will be in the range [1, 200].
+// Both of the given trees will have values in the range [0, 200].
+
+// TestCases:
+// [3,5,1,6,2,9,8,null,null,7,4], [3,5,1,6,7,4,2,null,null,null,null,null,null,9,8] -> true
+// [1], [1] -> true
