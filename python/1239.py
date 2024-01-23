@@ -6,7 +6,7 @@ class Solution:
     def isUnique(self, string):
         return len(string) == len(set(string))
 
-    def maxLength(self, arr: List[str]) -> int:
+    def maxLength(self, arr: list[str]) -> int:
         max_len = 0
         combinations = [""]
         
